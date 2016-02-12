@@ -1,0 +1,257 @@
+Release Notes
+KSDK 1.3.0 FRDM-KL03Z 1.0.0 Eclipse Update
+
+To use the Kinetis SDK with Eclipse and Processor Expert, this update needs to be installed into Eclipse (e.g. Kinetis Design Studio or Processor Expert for Kinetis). 
+Otherwise both 'New Project Wizard' and Processor Expert will not know about the devices present and supported in the Kinetis SDK.
+
+Please note: Processor Expert for Kinetis 3.0.1 update is needed to be installed prior to this Eclipse Update
+
+The following Eclipse environments are applicable:
+ - Applicable on any Eclipse based IDE with Processor Expert for Kinetis installed.
+
+Installation:
+  - Launch Eclipse 
+  - Choose the menu Help > Install New Software... 
+  - Press the Add... Button in the dialog 
+  - In the next dialog, choose the 'Archive...' button and browse for the KSDK_1.3.0_FRDM-KL03Z_1.0.0_Eclipse_Update.zip installation package file 
+  - Then go through the guided update process 
+  - At the end, you are asked to restart Eclipse
+
+ 
+Product Content:
+Repository Name : KSDK 1.3.0
+Repository Location: {KDS or Processor Expert for Kinetis Product}/eclipse/ProcessorExpert/Repositories/KSDK130_Repository/
+- CPUs - Kinetis
+  - MKL03Z32xxx4 - MKL03Z32CAF4, MKL03Z32VFG4, MKL03Z32VFK4
+
+- Boards
+  - FRDM-KL03Z
+
+- Components
+  - Peripheral Initialization Components
+    - PinSettings
+    - Init_ADC_VAR0
+    - Init_ADC_VAR2
+    - Init_AFE_VAR0
+    - Init_AIPS0_VAR0
+    - Init_AIPS1_VAR0
+    - Init_AIPS_VAR1
+    - Init_AOI_VAR0
+    - Init_AXBS_VAR0
+    - Init_CAN_VAR0
+    - Init_CMT_VAR0
+    - Init_COP_KINETIS
+    - Init_CRC_VAR0
+    - Init_DAC_VAR0
+    - Init_DMAMUX_VAR0
+    - Init_DMA_VAR0
+    - Init_EMV_SIM_VAR0
+    - Init_ENC_VAR0
+    - Init_ENET_VAR0
+    - Init_EWM_VAR0
+    - Init_FB_VAR0
+    - Init_FLEXIO_VAR0
+    - Init_FMC_VAR1
+    - Init_FTFL_VAR0
+    - Init_FTM_VAR0
+    - Init_GPIO_VAR0
+    - Init_HSCMP_VAR0
+    - Init_I2C_VAR0
+    - Init_I2S_VAR1
+    - Init_LLWU_VAR0
+    - Init_LPTMR_VAR0
+    - Init_MCM_VAR2
+    - Init_MCM_VAR3
+    - Init_MMDVSQ_VAR0
+    - Init_MPU_VAR0
+    - Init_NVIC_VAR0
+    - Init_NVIC_VAR1
+    - Init_PDB_VAR0
+    - Init_PIT_VAR0
+    - Init_PMC_VAR0
+    - Init_PORT_VAR0
+    - Init_QuadSPI_VAR0
+    - Init_RCM_VAR0
+    - Init_RNG_VAR1
+    - Init_RTC_VAR3
+    - Init_SCB_VAR0
+    - Init_SDHC_VAR0
+    - Init_SDRAM_VAR0
+    - Init_SIM_VAR2
+    - Init_SIM_VAR3
+    - Init_SIM_VAR5
+    - Init_SLCD_VAR0
+    - Init_SMC_VAR0
+    - Init_SPI_VAR0
+    - Init_SPI_VAR1
+    - Init_SRTC_VAR0
+    - Init_SysTick_VAR0
+    - Init_TMR_VAR0
+    - Init_TPM_VAR0
+    - Init_TSI_VAR2
+    - Init_TSI_VAR3
+    - Init_UART_VAR0
+    - Init_USBDCD_VAR0
+    - Init_USB_OTG_HS_VAR0
+    - Init_USB_OTG_VAR0
+    - Init_USB_UTMI_PHY_VAR0
+    - Init_VREF_VAR0
+    - Init_WDOG_VAR0
+    - Init_XBAR_VAR2
+    - Init_eDMA_VAR0
+    - Init_eFlexPWM_VAR0
+    
+  - SDK peripheral driver components (in library)
+    - fsl_adc16
+    - fsl_afe
+    - fsl_aoi
+    - fsl_cmp
+    - fsl_cop
+    - fsl_crc
+    - fsl_cadc
+    - fsl_dac
+    - fsl_dma
+    - fsl_dspi
+    - fsl_edma
+    - fsl_enc
+    - fsl_enet
+    - fsl_ewm
+    - fsl_flexbus
+    - fsl_flexcan
+    - fsl_flexio
+    - fsl_ftm
+    - fsl_gpio
+    - fsl_i2c
+    - fsl_irtc
+    - fsl_lmem_cache
+    - fsl_lpsci
+    - fsl_lptmr
+    - fsl_lpuart
+    - fsl_mmau
+    - fsl_mpu
+    - fsl_pdb
+    - fsl_pit
+    - fsl_pwm
+    - fsl_quadtmr
+    - fsl_rnga
+    - fsl_rtc
+    - fsl_sai
+    - fsl_sdhc
+    - fsl_slcd
+    - fsl_spi
+    - fsl_tpm
+    - fsl_tsi
+    - fsl_uart
+    - fsl_vref
+    - fsl_wdog
+    - fsl_xbar
+    - fsl_power_manager
+    - fsl_clock_manager
+    - fsl_hwtimer
+    - fsl_interrupt_manager
+    - fsl_os_abstraction
+  
+  - HAL components (in library)
+    - fsl_adc16_hal
+    - fsl_afe_hal
+    - fsl_aoi_hal
+    - fsl_cmp_hal
+    - fsl_cop_hal
+    - fsl_crc_hal
+    - fsl_cadc_hal
+    - fsl_dac_hal
+    - fsl_dma_hal
+    - fsl_dmamux_hal
+    - fsl_dspi_hal
+    - fsl_edma_hal
+    - fsl_enc_hal
+    - fsl_enet_hal
+    - fsl_ewm_hal
+    - fsl_flexbus_hal
+    - fsl_flexcan_hal
+    - fsl_flexio_hal
+    - fsl_ftm_hal
+    - fsl_gpio_hal
+    - fsl_i2c_hal
+    - fsl_irtc_hal
+    - fsl_llwu_hal
+    - fsl_lmem_cache_hal
+    - fsl_lpsci_hal
+    - fsl_lptmr_hal
+    - fsl_lpuart_hal
+    - fsl_mcg_hal
+    - fsl_mcglite_hal
+    - fsl_mmdvsq_hal
+    - fsl_mmau_hal
+    - fsl_mpu_hal
+    - fsl_osc_hal
+    - fsl_pdb_hal
+    - fsl_pit_hal
+    - fsl_pmc_hal
+    - fsl_port_hal
+    - fsl_pwm_hal
+    - fsl_quadtmr_hal
+    - fsl_rcm_hal
+    - fsl_rnga_hal
+    - fsl_rtc_hal
+    - fsl_sai_hal
+    - fsl_sdhc_hal
+    - fsl_sim_hal
+    - fsl_slcd_hal
+    - fsl_smc_hal
+    - fsl_spi_hal
+    - fsl_tpm_hal
+    - fsl_tsi_hal
+    - fsl_uart_hal
+    - fsl_vref_hal
+    - fsl_wdog_hal
+    - fsl_xbar_hal
+
+  - Other components
+    - fsl_flash
+    - fsl_sdcard
+    - fsl_debug_console
+
+  - Operating system
+    - OS_Task
+    - FreeRTOS
+    - ucOSII
+    - ucOSIII
+
+Known problems and limitations:
+  - List of components is super-set of components supported in KSDK 1.3.0 mainline release. From this reason user may find some 'missing' components in 'Components Library' window for device where component is not supported.
+  - PinSettings is required for SDK projects
+  - ClockManager is required for SDK projects
+  - USB stack integration
+    fsl_usb_framework does not support OTG mode
+    only HID and MSD Class components are supported now
+  - PEXMCU-1579,PEXMCU-1832 - Problem with ISR sharing between SDK components. Some components eg. fsl_pit, fsl_wdog and fsl_ewm shares one IRQ. 
+    When both components are added into project, error occurs because both components allocates same ISR name in Events tab.
+    User shall disable code generation of ISR in other components and generate ISR only by one component. Eg. disable code 
+    generation in Events tab in fsl_ewm and generate ISR only by fsl_wdog. Another problem occurs between fsl_flexio and fsl_uart 
+    because flexio and UART2 shares one ISR. fsl_uart cannot allocate ISR properly and generates ISR into module file. fsl_flexio 
+    allocates ISR and generates it as event into Events file. In this case no error are shown but some error 
+    should be shown because ISR is generated into two files.
+  - PEXMCU-1616 - When is no user requirement on pin in PinSettings and also in component - no routing code is generated
+    Workaround: Select pin either in component or in PinSettings (Automatic value cannot be on both places)
+  - PEXMCU-3312 - fsl_sdcard - properties of an inherited component are not transferred after you switch SDK version from KSDK 1.2.0 to KSDK 1.3.0.
+  - PEXMCU-3630 - fsl_debug_console - device property of inherited component should be selected manually after project switch from KSDK 1.2.0 to KSDK 1.3.0
+  - PEXMCU-3315 - fsl_lpuart, fsl_lpsci - baud rate and clock source property values are not correctly transferred after project switch from KSDK 1.2.0 to KSDK 1.3.0 due to timing item removal.
+  - PEXMCU-3160 - KM3x_256 - xbar - Connection among XBAR and other peripherals is not fully supported
+  - PEXMCU-3724 - When compiler is changed in processor component to unsupported one (there is no toolchain for the particular compiler in the IDE) and then back to supported one then not all toolchain settings are restored resulting in compiler errors.
+    For example linker library flags are missing (--specs=nosys.specs --specs=nano.specs)       
+  - When a new project is created selecting board support in the wizard (File->New->Kinetis project->next->Boards->Kinetis->{board}), Kinetis SDK must be selected.
+    Option Kinetis SDK = none is unsupported option, although available, and will result in an empty project. 
+    Exception to this limitation are FRDM-K22F, FRDM-K64F, FRDM-KL46Z, TWR-K22F120M, TWR-K60D100M, TWR-K64F120M, TWR-KV10Z32, TWR-KV31F120M,
+    where it should be possible to use also Kinetis SDK = none option to create PEx project.
+  - PEXMCU-4077 - When a CPU variant is switched in the CPU component, PinSettings components displays an error message that the inspector displays data related to previous CPU variant.
+    However, the error message may contains unrelated part name different from the CPU present in the project.
+    Workaround: Ignore the part name in the error message and click the button 'Switch Configuration' in the PinSettings component to switch the view to the new CPU variant.
+-------------------------------------------
+Package ID: PE 10.5.16
+-----------------------------------------
+http://www.freescale.com/processorexpert
+http://www.freescale.com
+
+Freescale Support Department:
+ support@freescale.com
